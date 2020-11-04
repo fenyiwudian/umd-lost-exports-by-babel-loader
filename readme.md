@@ -1,0 +1,1 @@
+Demo repository for [stackoverflow question](https://stackoverflow.com/questions/64674396/webpack-umd-modules-lost-exports-after-handling-by-babel-loader)

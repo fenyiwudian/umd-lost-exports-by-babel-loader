@@ -25,12 +25,12 @@ module.exports = () => {
         // my codes and umd packages codes are ES6 mode
         // using babel-loader for umd package result in the loss of umd exported objects
         // remove comment below to try
-        // {
-        //   test: /(src|lib)[\\/].+\.js$/,
-        //   use: [
-        //     { loader: 'babel-loader' },
-        //   ]
-        // }
+        {
+          test: /(src|lib)[\\/].+\.js$/,
+          use: [
+            { loader: 'babel-loader' },
+          ]
+        }
       ]
     },
     optimization: {
